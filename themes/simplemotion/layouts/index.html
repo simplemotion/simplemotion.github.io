@@ -1,0 +1,58 @@
+{{ define "main" }}
+<section class="hero">
+  <div class="hero-content">
+    <h1 class="hero-title">SimpleMotion</h1>
+    <p class="hero-tagline">{{ .Site.Params.tagline }}</p>
+  </div>
+</section>
+
+<section class="pillars">
+  <div class="pillar-grid">
+    <a href="/architecture/" class="pillar-card">
+      <div class="pillar-number">01</div>
+      <h2>Architecture</h2>
+      <p>Building automation, facade systems, and kinetic architectural elements that transform the built environment.</p>
+      <span class="pillar-link">Explore &rarr;</span>
+    </a>
+    <a href="/entertainment/" class="pillar-card">
+      <div class="pillar-number">02</div>
+      <h2>Entertainment</h2>
+      <p>Stage machinery, performer flying, and theatrical automation for live performance and touring productions.</p>
+      <span class="pillar-link">Explore &rarr;</span>
+    </a>
+    <a href="/industry/" class="pillar-card">
+      <div class="pillar-number">03</div>
+      <h2>Industry</h2>
+      <p>Industrial motion control, custom machinery, and precision automation for manufacturing and process industries.</p>
+      <span class="pillar-link">Explore &rarr;</span>
+    </a>
+  </div>
+</section>
+
+<section class="products-preview">
+  <div class="section-container">
+    <h2>Our Products</h2>
+    <p class="section-subtitle">Purpose-built motion control systems, open and ready to download.</p>
+    <div class="product-grid">
+      <div class="product-card">
+        <h3>Simplicity One</h3>
+        <p>Single-axis motion controller for theatrical automation.</p>
+        <a href="/products/#simplicity-one" class="btn btn-outline">Learn more</a>
+      </div>
+      <div class="product-card">
+        <h3>Simplicity Two</h3>
+        <p>Multi-axis motion control system for complex stage machinery.</p>
+        <a href="/products/#simplicity-two" class="btn btn-outline">Learn more</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cta">
+  <div class="section-container">
+    <h2>Let's build something together.</h2>
+    <p>Twenty years of engineering motion. Ready for your next project.</p>
+    <a href="/contact/" class="btn btn-primary">Get in touch</a>
+  </div>
+</section>
+{{ end }}
