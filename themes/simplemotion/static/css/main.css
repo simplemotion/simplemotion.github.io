@@ -239,14 +239,14 @@ h1, h2, h3, h4 {
 }
 
 .hero-favicon {
-  height: clamp(80px, 12vw, 160px);
+  height: clamp(55px, 8vw, 110px);
   width: auto;
   border-radius: 50%;
   flex-shrink: 0;
 }
 
 .hero-banner-text {
-  height: calc(clamp(80px, 12vw, 160px) * 0.645);
+  height: calc(clamp(55px, 8vw, 110px) * 0.645);
   width: auto;
 }
 
