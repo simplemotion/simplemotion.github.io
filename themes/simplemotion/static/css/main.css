@@ -230,6 +230,12 @@ h1, h2, h3, h4 {
   padding: var(--space-xl) var(--space-md);
 }
 
+.hero-banner {
+  width: clamp(280px, 60vw, 800px);
+  height: auto;
+  margin-bottom: var(--space-lg);
+}
+
 .hero-title {
   font-size: var(--text-3xl);
   font-weight: 300;
