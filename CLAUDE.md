@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Repository Purpose
 
-This is the **public website** for SimpleMotion, hosted via GitHub Pages at https://simplemotion.github.io. It is a static site built with Hugo using a custom dark minimalist theme.
+This is the **public website** for SimpleMotion, hosted via GitHub Pages at https://new.simplemotion.com. It is a static site built with Hugo using a custom dark minimalist theme.
 
 **No build system beyond Hugo.** Content is Markdown. Pushing to `main` triggers GitHub Actions to build and deploy.
 

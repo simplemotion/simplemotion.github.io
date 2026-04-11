@@ -1,6 +1,6 @@
-# simplemotion.github.io
+# .simplemotion.new
 
-Public website for SimpleMotion — Engineered for Architecture, Entertainment and Industry.
+Public website for SimpleMotion at https://new.simplemotion.com — Engineered for Architecture, Entertainment and Industry.
 
 ## Technology
 
